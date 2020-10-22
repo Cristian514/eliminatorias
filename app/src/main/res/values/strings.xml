@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ParcialAndroid</string>
+    <string name="TitlePrin">PARTIDOS 2020</string>
+    <string name="IDestadisticas">Estadisticas</string>
+    <string name="NamePlayer">Nombre Jugador</string>
+    <string name="Team">Ingrese Equipo</string>
+    <string name="Resultado8">Guardar</string>
+    <string name="Resultado9">Buscar</string>
+    <string name="Resultado10">Regresar</string>
+    <string name="resultado">Ver Resultados</string>
+    <string name="Stats">Estadisticas</string>
+    <string name="Resultado5">Gaudar</string>
+    <string name="Resultado6">buscar</string>
+
+
+</resources>

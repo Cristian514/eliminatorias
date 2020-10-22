@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Estadisticaspartidos">
+
+    <TextView
+        android:id="@+id/IDestadisticas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="@string/IDestadisticas"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/NamePlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="@string/NamePlayer"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IDestadisticas" />
+
+    <EditText
+        android:id="@+id/Team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="@string/Team"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NamePlayer" />
+
+    <EditText
+        android:id="@+id/Goles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Goles Anotados"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Team" />
+
+    <Button
+        android:id="@+id/Resultado8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="@string/Resultado8"
+        app:layout_constraintTop_toBottomOf="@+id/Goles"
+        tools:layout_editor_absoluteX="101dp" />
+
+    <Button
+        android:id="@+id/Resultado10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:hint="@string/Resultado10"
+        app:layout_constraintTop_toBottomOf="@+id/Resultado8"
+        tools:layout_editor_absoluteX="101dp" />
+
+    <Button
+        android:id="@+id/Resultado9"
+        android:layout_width="93dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="72dp"
+        android:hint="@string/Resultado9"
+        app:layout_constraintTop_toBottomOf="@+id/Goles"
+        tools:layout_editor_absoluteX="218dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
